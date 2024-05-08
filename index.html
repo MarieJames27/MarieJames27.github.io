@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>MECÁNICA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="./images/FAVICON_ICON.png" type="images/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <meta name="theme-color" content="#000080">
+  <meta name="title" content="">
+
+<meta name="title" content="Mecánica con Laboratorio" />
+<meta name="description" content="Guía ejercicios tiro parabólico" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mariejames27.github.io/" />
+<meta property="og:title" content="Mecánica con Laboratorio" />
+<meta property="og:description" content="Guía ejercicios tiro parabólico" />
+<meta property="og:image" content="https://mariejames27.github.io/images/metatags.png" />
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">MECÁNICA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">ACERCA DEL MOVIMIENTO PARABÓLICO</a></li>
+        <li><a href="#ejemplos">EJEMPLOS</a></li>
+        <li><a href="#definiciones">DEFINICIONES</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+        <li class="dropdown">
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/portada_mov_PARABOLICO.png" alt="Ser Servicios" width="1500" height="700">
+        <div class="carousel-caption">
+          <h3>MECÁNICA</h3>
+          <p>El movimiento parabólico es un ejemplo de un movimiento realizado por un objeto en dos dimensiones o sobre un plano. 
+            Puede considerarse como la combinación de dos movimientos que son un movimiento horizontal uniforme y un movimiento vertical.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/mov_parabolico_ANGRYBIRDS.png" alt="SER" width="1500" height="700">
+        <div class="carousel-caption">
+          <h3>EJEMPLO CON ANGRY BIRDS</h3>
+         
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="images/yMAX_AB.png" alt="SUMINISTROS" width="1500" height="700">
+        <div class="carousel-caption">
+          <h3>YMAX</h3>
+          <p>La altura máxima que alcanza un proyectil se obtiene con vy=0.</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="ejemplos" class="container text-center">
+  <h3>MECÁNICA</h3>
+  <p><em>El tiro parabólico tiene las siguientes características:
+
+    Conociendo la velocidad de salida (inicial), el ángulo de inclinación inicial y la diferencia de alturas (entre salida y llegada) se conocerá toda la trayectoria.
+    Los ángulos de salida y llegada son iguales (siempre que la altura de salida y de llegada sean iguales).
+    La mayor distancia cubierta o alcance se logra con ángulos de salida de 45°.
+    Para lograr la mayor distancia fijada, el factor más importante es la velocidad.
+    Se puede analizar el movimiento en vertical independientemente del horizontal.
+    La componente horizontal se mantiene constante.</em></p>
+  <p>
+
+  </p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Movimiento Parabólico</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="images/movi_parabol.png" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p><br>Ejemplo ejercicio:</p>
+        <p>Desde la parte superior de un edificio de 4.9 metros de altura se lanza horizontalmente una pelota de básquet y cae al suelo en un punto situado a 7 metros del borde del edificio. Encuentra la velocidad de la pelota en el instante en que fue lanzada.
+          En el eje de las y, aplicamos la siguiente fórmula, teniendo en cuenta que la velocidad inicial en el eje y es 0, dado que la pelota se lanza horizontalmente.
+        <br>h=V0yt ± (gt)²/2</p>
+          <p>4.9 = 0t + (9.8t)²/2</p>
+          <p>4.9 = 4.9t²</p>
+          <p>4.9/4.9 = t²</p>
+          <p> 1 = t²</p>
+          <p>t = 1s</p>
+          <br>En el eje de las x aplicaríamos la siguiente fórmula:
+          <br>d = Vox(t)<br>7 = Vox(1)<br>7m/s = Vox<br>Vox = 7m/s
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Tiro Parabólico</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="images/tiro_parabolico.png" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+       <br>Ejemplo ejercicio: <br>
+          <p>Alguien patea un balón de fútbol, que sale despedido en un ángulo de 37° y con una velocidad de 20 m/s. Sabiendo que la constante gravitatoria es de 9.8 m/s². Calcule: a) la altura máxima del balón, b) el tiempo total que permanece en el aire, c) la distancia que ha recorrido al caer.
+            <p> a) Para obtener la altura máxima:</p>
+            <p>Ymax = Voy t + gt² / 2= 12.03 m/s (1.22 s) + ((-9.8m/s²) (1.22 s)²) / 2 = 7.38 m</p>
+            <p>b) Para obtener el tiempo total:</p>
+            <p> = tmax (2) = 1.22s (2) = 2.44 s</p>
+            <p>c) Para obtener el alcance máximo se usará la fórmula:</p>
+           <p> x = vx ttotal = 15.97 m/s (2.44 s) = 38.96 m</p>
+           <p> vfy = gt + voy = (- 9.8) (1 s) + 12.03 m/s = 2.23 m/s</p>
+            <p> = 15.97 m/s dado que es constante a lo largo del movimiento.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Tiro Parabólico Oblicuo</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="images/tiro_parabolico_oblicuo.png" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p><br>Tiro parabólico oblicuo:</p>
+          <br>Ejemplo ejercicio:<br>Un avión vuela horizontalmente con velocidad vA = 900 km/h a una altura
+          de 2000 m, suelta una bomba que debe dar en un barco cuya velocidad es vB = 40 km/h
+          con igual dirección y sentido. Determinar:
+          a) ¿Qué tiempo tarda la bomba en darle al barco?.
+          b) ¿Con qué velocidad llega la bomba al barco?.
+          c) ¿Qué distancia recorre el barco desde el lanzamiento hasta el impacto?.
+          d) ¿Cuál será la distancia horizontal entre el avión y el barco en el instante del
+          lanzamiento?.
+          e) ¿Cuál será la distancia horizontal entre el avión y el barco en el instante del impacto?.
+          Se recuerda que en tiro parabólico y tiro oblicuo el movimiento en el eje "x" es rectilíneo
+          uniforme, mientras en el eje "y" es uniformemente variado (asociar con tiro vertical y
+          caída libre).
+          Donde no se indica se emplea g = 10 m/s².
+          <br> Datos:
+          <br> vA0y = 0 m/s
+          <br>vAx = 900 <br>km/h = 250 m/s
+          <br>vBx = 40 <br>km/h = 11,11 m/s
+          <br>hA = 2000 m
+          <br>Ecuaciones:
+          <br>(1) v fy = v0y + g.t
+          <br>(2) h = v0y.t + g.t ²/2
+          <br>(3) vx = Δx/Δt
+          <br>a) De la ecuación (2):
+          <br>h = g.t ²/2
+          <br>t = √2.h/g
+          <br> t = 20s
+          <br>b) Con el tiempo hallado y la ecuación (1):
+          <br>v fAy = g.t
+          <br>v fAy = (10 m/s ²).(20 s)
+          <br>v fAy = 200 m/s
+          <br>Por supuesto la velocidad en "x":
+          <br>v Ax = 250 m/s
+          <br>c) Con el mismo tiempo de impacto y la ecuación (3):
+          <br>xA = vx.t
+          <br>xA = (11,11 m/s).(20 s)
+          <br>xA = 222,22 m
+          <br>d) Simplemente calculamos la distancia recorrida por el avión en los 20 s mediante la
+          ecuación (1):
+          <br>xB = vx.t
+          <br>xB = (250 m/s).(20 s)
+          <br>xB = 5000 m
+          <br>La diferencia con el resultado en (c) es la respuesta:
+          <br>d = xB - xA
+          <br>d = 5000 m - 222,22 m
+          <br>d = 4777,78 m
+          <br>e)La distancia entre el avión y el barco en el momento del impacto es 0 m.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (TOUR Section) -->
+<div id="definiciones" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">EJERCICIOS</h3>
+    <p class="text-center">En los 3 casos:</p>
+    <ul class="list-group">
+      <li class="list-group-item">Movimiento parabólico: <span class="label label-danger"></span></li>
+      <li class="list-group-item">Tiro parabólico: <span class="label label-danger"></span></li> 
+      <li class="list-group-item">Movimiento parabólico Oblicuo:<span class="badge">3</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/mov_parabolico.jpg" alt="mecánica" width="400" height="300">
+          <p><strong>Movimiento parabólico:</strong></p>
+          <p>El movimiento parabólico es un tipo de movimiento en el que un objeto sigue una trayectoria en forma de parábola 
+            bajo la influencia de la gravedad. Este tipo de movimiento ocurre cuando un objeto se lanza o proyecta con cierta 
+            velocidad inicial en un ángulo respecto a la horizontal.
+  
+            La trayectoria del objeto en movimiento parabólico es determinada por dos componentes de su movimiento: 
+            la componente horizontal y la componente vertical. Mientras que la componente horizontal sigue un movimiento 
+            uniforme (sin aceleración), la componente vertical está afectada por la gravedad y sigue un movimiento
+             uniformemente acelerado.
+            
+            Al combinar estas dos componentes, se genera una trayectoria curva que tiene la forma de una parábola. 
+            La forma y la longitud de la parábola dependen del ángulo de lanzamiento, la velocidad inicial y la altura
+             desde la que se lanza el objeto. El movimiento parabólico se puede describir y analizar utilizando las 
+             leyes de la cinemática y la dinámica newtoniana.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Fórmulas</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/tiro_parabólico.jpg" alt="mecanica" width="400" height="300">
+          <p><strong>Tiro parabólico:</strong></p>
+          <p>El tiro parabólico es un caso específico del movimiento parabólico:
+            <br> El término "movimiento parabólico" se refiere al tipo de trayectoria que sigue un objeto en movimiento bajo la influencia de la gravedad, donde la trayectoria tiene la forma de una parábola. El "tiro parabólico" es un caso específico de movimiento parabólico que describe el lanzamiento de un objeto en un ángulo respecto a la horizontal, como el lanzamiento de un proyectil. Entonces, mientras que el movimiento parabólico es un concepto general que abarca cualquier objeto que siga una trayectoria en forma de parábola bajo la gravedad, el tiro parabólico se refiere específicamente al lanzamiento de un objeto. En resumen, el tiro parabólico es un tipo de movimiento parabólico.
+          </p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Fórmulas</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/mov_oblicuo.png" alt="mecanica" width="400" height="300">
+          <p><strong>Tiro parabólico Oblicuo:</strong></p>
+          <p>El tiro parabólico oblicuo es un concepto de la física que describe el movimiento de un objeto lanzado con una velocidad inicial desde un punto en una trayectoria parabólica, pero con una componente horizontal y otra vertical. En otras palabras, el objeto se mueve tanto hacia adelante como hacia arriba, describiendo una trayectoria curva.
+
+            En este tipo de movimiento, la componente horizontal de la velocidad permanece constante (ignorando la resistencia del aire), mientras que la componente vertical está sujeta a la aceleración debida a la gravedad. Esto hace que la trayectoria del objeto sea una parábola en dos dimensiones.
+            
+            La trayectoria y la altura máxima alcanzada por el objeto dependen de varios factores, como la velocidad inicial, el ángulo de lanzamiento y la gravedad. Este concepto se utiliza ampliamente en la física para analizar el movimiento de proyectiles, como por ejemplo en el deporte, en la ingeniería y en la física de partículas.</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Fórmulas</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">MECÁNICA</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> </h4>
+        </div>
+        <div class="modal-body">
+          <form role="form" action="https://formspree.io/f/mbjnwokk"
+          method="POST">
+            <div class="form-group">
+              <label for=""><span ></span> Listado de fórmulas:</label>
+              <p>
+                Componentes de la velocidad inicial: Vox = Vo(cos(0))Voy =Vo(sen(0))
+                <br>Tiempo de vuelo: T = (2)vo (sen(0))/g 
+                <br>Altura mázima alcanzada: H = V²0(sen(0))/2g
+                <br>Alcance horizontal máximo: R = V²0(sen(20))/g 
+                <br>Posición en el eje horizontal en cualquier momento t: x(t) = vo(t)
+                <br>Posición en el eje vertical en cualquier momento t: y(t) = voy (t) -1/2g(t)²
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> By Fernanda Macías</label>
+            </div>
+
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Atrás
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">CONTACTO</h3>
+  <p class="text-center"><em>UNIVERSIDAD DE SONORA</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Comuníquese por correo.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Sonora, MX</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Tel.: +52 6623424670</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Correo: a221209182@unison.mx</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+        </div>
+        <div class="col-sm-6 form-group">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">UBICACIÓN Y CONTACTO</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Fernanda</a></li>
+    <li><a data-toggle="tab" href="#menu1">Dr. Lorenzo</a></li>
+     </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Fernanda Macías, Estudiante Lic. Ciencias de la Computación</h2>
+      <p>a221209182@unison.mx</p>
+        Tel.: 6623424670
+      </p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Dr. Lorenzo Olguin Ruiz, maestro  departamento de física</h2>
+      <p></p>
+    </div>
+  </div>  <!-- Image of location/map -->
+  <div class="contenedor">
+    <img src="images/maps.png" class="imagen" >
+    </div>
+</div>
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="PÁGINA DE INICIO">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p> <a href="https://es.wikipedia.org/wiki/Movimiento_parabólico" data-toggle="tooltip" title="Inicio">Derechos reservados by Fernanda Macías</a></p> 
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
